@@ -1,4 +1,4 @@
 #!/bin/bash
-sudo pip3 install -r requirements.txt
+sudo python3 -m pip install -r requirements.txt
 sudo pkill -f app.py || true
 sudo nohup python3 app.py > app.log 2>&1 &
