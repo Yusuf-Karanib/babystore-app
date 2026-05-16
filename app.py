@@ -1,3 +1,4 @@
+import fake_module  # This intentionally breaks the app for the rollback test!
 from flask import Flask
 
 app = Flask(__name__)
